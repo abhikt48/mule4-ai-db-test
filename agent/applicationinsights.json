@@ -52,5 +52,14 @@
 				"enabled": true
 			}
 		}
+	},
+	"selfDiagnostics": {
+		"destination": "file+console",
+		"level": "TRACE",
+		"file": {
+			"path": "applicationinsights.log",
+			"maxSizeMb": 10,
+			"maxHistory": 1
+		}
 	}
 }
